@@ -39,10 +39,16 @@ app.use('/api/dashboard', dashboardRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
-  res.json({ 
-    status: 'healthy', 
-    environment: process.env.NODE_ENV || 'development' 
+  res.json({
+    status: 'healthy',
+    environment: process.env.NODE_ENV || 'development'
   });
+});
+
+// Welcome endpoint
+app.get('/api/welcome', (req, res) => {
+  console.log(`Request received: ${req.method} ${req.path}`);
+  res.json({ message: 'Welcome to the API service!' });
 });
 
 // Error handling (works for both environments)

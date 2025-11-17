@@ -6,5 +6,6 @@ const authMiddleware = require('../middleware/authMiddleware');
 router.get('/:id', authMiddleware, userController.getProfile);
 router.put('/:id', authMiddleware, userController.updateProfile);
 router.get('/email/:id', authMiddleware, userController.getEmail);
+router.get('/welcome', userController.welcome);
 
 module.exports = router;

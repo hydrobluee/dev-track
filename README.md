@@ -1,7 +1,7 @@
-# CPier - Unified Coding Profile Dashboard 🚀
+# DevTrack - Unified Coding Profile Dashboard 🚀
 
 
-CPier is your one-stop dashboard that aggregates competitive programming profiles from LeetCode, CodeChef, and CodeForces. Get a 360° view of your coding journey with unified statistics, combined heatmaps, and integrated contest calendars.
+DevTrack is your one-stop dashboard that aggregates competitive programming profiles from LeetCode, CodeChef, and CodeForces. Get a 360° view of your coding journey with unified statistics, combined heatmaps, and integrated contest calendars.
 
 ## ✨ Features
 
@@ -50,7 +50,7 @@ CPier is your one-stop dashboard that aggregates competitive programming profile
 - Supabase (PostgreSQL)
 
 ## 🌐 Live Demo
-Experience CPier at [https://cp-tracker-mauve.vercel.app/](https://cp-tracker-mauve.vercel.app/)
+Experience DevTrack at [https://cp-tracker-mauve.vercel.app/](https://cp-tracker-mauve.vercel.app/)
 
 ## 👥 Contributors
 <table>

@@ -43,3 +43,12 @@ exports.getEmail = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+exports.welcome = async (req, res) => {
+  try {
+    console.log(`Request received: ${req.method} ${req.path}`);
+    res.json({ message: 'Welcome to the API service!' });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
