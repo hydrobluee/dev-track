@@ -12,10 +12,11 @@
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@iconify/react": "^6.0.0",
-    "@supabase/supabase-js": "^2.49.4",
+    "@supabase/supabase-js": "^2.81.1",
     "apexcharts": "^4.7.0",
     "axios": "^1.8.4",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
     "framer-motion": "^12.11.0",
     "lucide-react": "^0.488.0",
     "motion": "^12.9.2",
